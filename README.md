@@ -20,7 +20,8 @@
 
 ## Contacto 
 <p align="left">
-<a href="ximenahinestroza0@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&fs=1&to=ximenahinestroza0@gmail.com)
+
 </p>
 
 
