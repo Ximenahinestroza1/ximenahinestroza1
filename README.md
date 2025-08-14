@@ -13,6 +13,11 @@
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
 </p>
 
+## Cómo contactarme
+<p align="left">
+<a href="ximenahinestroza0@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+</p>
+
 
 <!--
 **Ximenahinestroza1/ximenahinestroza1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
