@@ -1,64 +1,73 @@
-<!doctype html>
+ <!doctype html>
 <html lang="es">
 <head>
   <meta charset="utf-8">
   <title>Portafolio de Ximena</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       margin: 0;
       padding: 0;
-      background: #f5f7fa;
+      background: #fafafa;
       color: #333;
+      line-height: 1.6;
     }
 
     header {
-      background: #6c63ff;
-      color: white;
+      background: #f2d7ee;
+      color: #333;
       text-align: center;
-      padding: 50px 20px;
+      padding: 60px 20px;
     }
 
     header h1 {
-      margin: 0;
-      font-size: 36px;
+      font-size: 40px;
+      margin-bottom: 10px;
     }
 
     header p {
       font-size: 18px;
+      font-weight: 300;
     }
 
     section {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 20px;
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 30px;
       background: white;
-      border-radius: 12px;
-      box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      box-shadow: 0px 4px 14px rgba(0,0,0,0.08);
     }
 
     h2 {
-      color: #6c63ff;
+      color: #c9a7eb;
+      margin-bottom: 20px;
       text-align: center;
     }
 
-    .tecnologias img {
+    .tecnologias, .contacto, .proyectos {
+      text-align: center;
+    }
+
+    .tecnologias img, .contacto a img {
       margin: 10px;
     }
 
-    .contacto {
-      text-align: center;
-    }
-
-    .contacto a img {
-      margin-top: 10px;
+    .proyecto {
+      margin-bottom: 20px;
+      padding: 15px;
+      border-left: 4px solid #c9a7eb;
+      background: #fdfdfd;
+      text-align: left;
     }
 
     footer {
-      background: #6c63ff;
-      color: white;
+      background: #f2d7ee;
+      color: #333;
       text-align: center;
       padding: 15px;
+      font-size: 14px;
       margin-top: 40px;
     }
   </style>
@@ -66,13 +75,18 @@
 <body>
 
   <header>
-    <h1>¡Hola, soy Ximena! 👋</h1>
-    <p>Estudiante de <strong>Desarrollo de Software</strong> | Apasionada por el <strong>Frontend</strong> 🎨💻</p>
+    <h1>Ximena Hinestroza</h1>
+    <p>Estudiante de Desarrollo de Software | Enfoque en Frontend</p>
   </header>
 
   <section>
+    <h2>Sobre mí</h2>
+    <p>Soy estudiante de Desarrollo de Software con interés en el diseño de interfaces y la creación de experiencias digitales funcionales y atractivas. Busco crecer profesionalmente en el área de Frontend.</p>
+  </section>
+
+  <section>
     <h2>🚀 Tecnologías</h2>
-    <div class="tecnologias" align="center">
+    <div class="tecnologias">
       <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
       <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
       <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
@@ -80,12 +94,30 @@
     </div>
   </section>
 
+  <section class="proyectos">
+    <h2>📂 Proyectos</h2>
+    <div class="proyecto">
+      <h3>Portafolio Web</h3>
+      <p>Diseño y desarrollo de un portafolio personal en HTML y CSS para mostrar habilidades y proyectos.</p>
+      <a href="#">🔗 Ver en GitHub</a>
+    </div>
+    <div class="proyecto">
+      <h3>Gestor de Estudiantes</h3>
+      <p>Aplicación en C++ con lista doblemente enlazada para gestionar registros académicos.</p>
+      <a href="#">🔗 Ver en GitHub</a>
+    </div>
+  </section>
+
   <section class="contacto">
     <h2>📩 Contacto</h2>
     <a href="mailto:ximenahinestroza0@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+    <a href="https://github.com/Ximenahinestroza1"><img src="https://img.shields.io/badge/GitHub-333?style=for-the-badge&logo=github&logoColor=white"/></a>
+    <a href="https://www.linkedin.com/in/tuusuario"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   </section>
 
-  
+  <footer>
+    <p>© 2025 Ximena Hinestroza — Portafolio</p>
+  </footer>
 
 </body>
 </html>
